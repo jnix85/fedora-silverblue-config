@@ -20,7 +20,6 @@ packages:
   - glib-networking
   - gnome-backgrounds
   - gnome-bluetooth
-  - gnome-characters
   - gnome-classic-session
   - gnome-color-manager
   - gnome-control-center
@@ -55,7 +54,7 @@ packages:
   - mesa-libEGL
   - mousetweaks
   - nautilus
-  - nautilus-sendto
+  - orca
   - polkit
   - rygel
   - tracker
