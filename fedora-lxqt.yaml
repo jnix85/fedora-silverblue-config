@@ -8,6 +8,17 @@ packages:
   - libqtxdg
   # Portals for Flatpak
   - xdg-desktop-portal-kde
+  # Nvidia Drivers
+  - akmod-nvidia
+  - xorg-x11-drv-nvidia
+  # Custom Packages
+  - google-chrome-stable
+  - teams
+  - code  
 
 repos:
-  - fedora-30
+  - custom
+  - rpmfusion-free
+  - rpmfusion-nonfree
+  - rpmfusion-free-updates
+  - rpmfusion-nonfree-updates

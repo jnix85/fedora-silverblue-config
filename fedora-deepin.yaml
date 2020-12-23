@@ -5,6 +5,18 @@ rojig:
   summary: "Fedora Deepin base image"
   license: MIT
 packages:
+  - xdg-desktop-portal-gtk
+  # Nvidia Drivers
+  - akmod-nvidia
+  - xorg-x11-drv-nvidia
+  # Custom Packages
+  - google-chrome-stable
+  - teams
+  - code  
 
 repos:
-  - fedora-30
+  - custom
+  - rpmfusion-free
+  - rpmfusion-nonfree
+  - rpmfusion-free-updates
+  - rpmfusion-nonfree-updates

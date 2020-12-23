@@ -7,3 +7,17 @@ rojig:
 packages:
   # Portals for Flatpak
   - xdg-desktop-portal-gtk
+    # Nvidia Drivers
+  - akmod-nvidia
+  - xorg-x11-drv-nvidia
+  # Custom Packages
+  - google-chrome-stable
+  - teams
+  - code  
+
+repos:
+  - custom
+  - rpmfusion-free
+  - rpmfusion-nonfree
+  - rpmfusion-free-updates
+  - rpmfusion-nonfree-updates
