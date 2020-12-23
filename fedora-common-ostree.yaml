@@ -11,7 +11,7 @@ include:
 repos:
   - fedora
   - fedora-updates
-  - fedora-coreos-pool
+  # - fedora-coreos-pool
 
 packages:
   - git-core

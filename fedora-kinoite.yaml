@@ -19,8 +19,6 @@ packages:
   - code  
 
 repos:
-  - fedora
-  - fedora-updates
   - custom
   # - rpmfusion-free
   # - rpmfusion-nonfree
