@@ -14,10 +14,14 @@ packages:
   - xdg-desktop-portal-kde
   - akmod-nvidia
   - xorg-x11-drv-nvidia
+  - google-chrome-stable
+  - teams
+  - code
 
 repos:
   - fedora
   - fedora-updates
+  - custom
   - rpmfusion-free
   - rpmfusion-nonfree
   - rpmfusion-free-updates

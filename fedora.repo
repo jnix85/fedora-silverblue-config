@@ -39,3 +39,9 @@ name=RPM Fusion for Fedora 33 - Free - Updates
 metalink=https://mirrors.rpmfusion.org/metalink?repo=free-fedora-updates-released-33&arch=x86_64
 enabled=0
 gpgcheck=0
+
+[custom]
+name=custom
+baseurl=http://web.jpconsulted.com/custom
+gpgcheck=0
+enabled=0
