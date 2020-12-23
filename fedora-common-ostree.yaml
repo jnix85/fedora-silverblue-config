@@ -10,7 +10,7 @@ include:
 
 repos:
   - fedora
-  - fedora-updates
+  # - fedora-updates
   # - fedora-coreos-pool
 
 packages:
