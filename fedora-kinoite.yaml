@@ -12,33 +12,23 @@ packages:
   - xorg-x11-server-Xwayland
   # Portals for Flatpak
   - xdg-desktop-portal-kde
-  # - akmod-nvidia
-  # - xorg-x11-drv-nvidia
+  # Nvidia Drivers
+  - akmod-nvidia
+  - xorg-x11-drv-nvidia
+  # Custom Packages
   - google-chrome-stable
   - teams
   - code  
 
 repos:
   - custom
-  # - rpmfusion-free
-  # - rpmfusion-nonfree
-  # - rpmfusion-free-updates
-  # - rpmfusion-nonfree-updates
+  - rpmfusion-free
+  - rpmfusion-nonfree
+  - rpmfusion-free-updates
+  - rpmfusion-nonfree-updates
 
 
 postprocess:
-  - |
-    #!/usr/bin/bash
-    set -xeuo pipefail
-    # Do a dance to enable initial setup.  The default of requiring a file to
-    # exist in /var conflicts with the libostree "/var starts empty" model, so
-    # invert it.
-    echo '[daemon]' >> /etc/gdm/custom.conf
-    echo 'InitialSetupEnable=true' >> /etc/gdm/custom.conf
-    # (See the 20userlogin overlay for more)
-    # And disable systemd's builtin one
-    rm -vf /usr/lib/systemd/system/systemd-firstboot.service /usr/bin/systemd-firstboot \
-           /usr/lib/systemd/*.target.wants/systemd-firstboot.service
   - |
     #!/usr/bin/bash
     # https://github.com/containers/toolbox/pull/440
