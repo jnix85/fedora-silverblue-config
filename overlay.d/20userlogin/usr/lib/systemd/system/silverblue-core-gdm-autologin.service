@@ -1,9 +1,0 @@
-[Unit]
-ConditionPathExists=/run/ostree-live
-Before=gdm.service
-
-[Service]
-ExecStart=/usr/libexec/silverblue-core-gdm-autologin
-
-[Install]
-WantedBy=multi-user.target
