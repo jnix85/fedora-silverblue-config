@@ -12,8 +12,8 @@ packages:
   - xorg-x11-server-Xwayland
   # Portals for Flatpak
   - xdg-desktop-portal-kde
-  - akmod-nvidia
-  - xorg-x11-drv-nvidia
+  # - akmod-nvidia
+  # - xorg-x11-drv-nvidia
   - google-chrome-stable
   - teams
   - code  
@@ -22,7 +22,7 @@ repos:
   - fedora
   - fedora-updates
   - custom
-  - rpmfusion-free
-  - rpmfusion-nonfree
-  - rpmfusion-free-updates
-  - rpmfusion-nonfree-updates
+  # - rpmfusion-free
+  # - rpmfusion-nonfree
+  # - rpmfusion-free-updates
+  # - rpmfusion-nonfree-updates
