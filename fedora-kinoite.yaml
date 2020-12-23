@@ -1,5 +1,5 @@
 include: kde-desktop-pkgs.yaml
-ref: fedora/30/${basearch}/kinoite
+ref: fedora/33/${basearch}/kinoite
 rojig:
   name: fedora-kde
   summary: "Fedora Kinoite (KDE) base image"
