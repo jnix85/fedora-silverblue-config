@@ -208,7 +208,8 @@ packages:
   - usbutils
   - util-linux
   - vconfig
-  - vim-minimal
+  - vim-enhanced
+  - vim-default-editor
   - virtualbox-guest-additions
   - wget
   - which

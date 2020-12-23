@@ -1,1 +1,41 @@
-fedora-coreos-config/fedora.repo
+[fedora]
+name=Fedora 33 $basearch
+mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=fedora-33&arch=$basearch
+enabled=0
+gpgcheck=1
+metadata_expire=1d
+
+[fedora-updates]
+name=Fedora 33 $basearch Updates
+mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f33&arch=$basearch
+enabled=0
+gpgcheck=1
+metadata_expire=1d
+
+[rpmfusion-free]
+name=RPM Fusion for Fedora $releasever - Free
+#baseurl=http://download1.rpmfusion.org/free/fedora/releases/$releasever/Everything/$basearch/os/
+metalink=https://mirrors.rpmfusion.org/metalink?repo=free-fedora-$releasever&arch=$basearch
+enabled=0
+gpgcheck=0
+
+[rpmfusion-nonfree]
+name=RPM Fusion for Fedora $releasever - Nonfree
+#baseurl=http://download1.rpmfusion.org/nonfree/fedora/releases/$releasever/Everything/$basearch/os/
+metalink=https://mirrors.rpmfusion.org/metalink?repo=nonfree-fedora-$releasever&arch=$basearch
+enabled=0
+gpgcheck=0
+
+[rpmfusion-nonfree-updates]
+name=RPM Fusion for Fedora 33 - Nonfree - Updates
+#baseurl=http://download1.rpmfusion.org/nonfree/fedora/updates/33/x86_64/
+metalink=https://mirrors.rpmfusion.org/metalink?repo=nonfree-fedora-updates-released-33&arch=x86_64
+enabled=0
+gpgcheck=0
+
+[rpmfusion-free-updates]
+name=RPM Fusion for Fedora 33 - Free - Updates
+#baseurl=http://download1.rpmfusion.org/free/fedora/updates/33/x86_64/
+metalink=https://mirrors.rpmfusion.org/metalink?repo=free-fedora-updates-released-33&arch=x86_64
+enabled=0
+gpgcheck=0
