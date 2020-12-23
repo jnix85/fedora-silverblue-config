@@ -3,6 +3,6 @@ size: 8
 extra-kargs: {}
 # Copies of the fcos version
 ignition-network-kcmdline: []
-sysroot-readonly: true
+# sysroot-readonly: true
 # Silverblue only
 # rootfs: ext4
